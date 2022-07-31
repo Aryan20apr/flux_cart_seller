@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367019691892",
+    "project_id": "flux-cart-seller",
+    "storage_bucket": "flux-cart-seller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367019691892:android:34384d2dc770aebc85a621",
+        "android_client_info": {
+          "package_name": "com.example.flux_cart_seller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367019691892-pmso42h0jv66bithvuv18pasnhq7nsl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRFmRRI0Tm3aVtGDeCuWJd4qd40-XvmBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367019691892-pmso42h0jv66bithvuv18pasnhq7nsl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
