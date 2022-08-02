@@ -10,9 +10,13 @@ class BrandService{
 
     _firestore.collection('brands').doc(brandId).set({'brand': name});
   }
-  Future<List<DocumentSnapshot>> getBrands()
+  Future<List<DocumentSnapshot<Map<String,dynamic>>>> getBrands()
   {
-   return _firestore.collection(ref).get().then((snapshots) => snapshots.docs);
+   return _firestore.collection(ref).get().then((snapshots) {
+     return snapshots.docs;
+   });
 
   }
+
+
 }

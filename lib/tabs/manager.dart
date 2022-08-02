@@ -27,7 +27,7 @@ class _ManagerState extends State<Manager> {
           leading: Icon(Icons.add),
           title: Text("Add product"),
           onTap: () {
-            Navigator.push(context, MaterialPageRoute(builder: (_)=>AddProduct()));
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>AddProduct()));
           },
         ),
         Divider(),
